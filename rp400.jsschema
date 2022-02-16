@@ -1,0 +1,105 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome3",
+    "definitions": {
+        "Welcome3": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "uuid": {
+                    "type": "string"
+                },
+                "ipaddress": {
+                    "type": "string"
+                },
+                "cputempf": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "runtime": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "host": {
+                    "type": "string"
+                },
+                "hostname": {
+                    "type": "string"
+                },
+                "macaddress": {
+                    "type": "string"
+                },
+                "endtime": {
+                    "type": "string"
+                },
+                "te": {
+                    "type": "string"
+                },
+                "cpu": {
+                    "type": "number"
+                },
+                "diskusage": {
+                    "type": "string"
+                },
+                "memory": {
+                    "type": "number"
+                },
+                "rowid": {
+                    "type": "string"
+                },
+                "systemtime": {
+                    "type": "string"
+                },
+                "ts": {
+                    "type": "integer"
+                },
+                "starttime": {
+                    "type": "string"
+                },
+                "pressure": {
+                    "type": "number"
+                },
+                "temperature": {
+                    "type": "number"
+                },
+                "gasoxidising": {
+                    "type": "number"
+                },
+                "gasadc": {
+                    "type": "number"
+                },
+                "gasreducing": {
+                    "type": "number"
+                },
+                "gasnh3": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "cpu",
+                "cputempf",
+                "diskusage",
+                "endtime",
+                "gasadc",
+                "gasnh3",
+                "gasoxidising",
+                "gasreducing",
+                "host",
+                "hostname",
+                "ipaddress",
+                "macaddress",
+                "memory",
+                "pressure",
+                "rowid",
+                "runtime",
+                "starttime",
+                "systemtime",
+                "te",
+                "temperature",
+                "ts",
+                "uuid"
+            ],
+            "title": "Welcome3"
+        }
+    }
+}
